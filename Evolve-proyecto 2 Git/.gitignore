@@ -1,0 +1,63 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos de entorno virtual
+venv/
+env/
+ENV/
+.env
+
+# Archivos de distribución Python
+build/
+dist/
+*.egg-info/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de configuración sensible
+.env.local
+.env.*.local
+
+# Archivos de IDEs adicionales
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# Archivos de caché de pip
+~/.pip-cache/
+
+# Archivos de entorno (¡NUNCA commitear secretos!)
+.env
+.env.*
+!.env.example
+
+# Archivos temporales o de respaldo del editor
+*~
+*.tmp

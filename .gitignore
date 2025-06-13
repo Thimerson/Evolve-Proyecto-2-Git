@@ -1,0 +1,29 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos de dependencias (si usáramos Node.js más adelante)
+# node_modules/
+
+# Archivos de build (si tuviéramos un proceso de build)
+# dist/
+# build/
+
+# Archivos de entorno (¡NUNCA commitear secretos!)
+.env
+.env.*
+!.env.example
+
+# Archivos temporales o de respaldo del editor
+*~
+*.tmp
